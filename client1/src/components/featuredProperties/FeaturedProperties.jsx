@@ -3,7 +3,7 @@ import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
   const { data, loading, error } = useFetch("https://gurubooking.herokuapp.com/api/hotels?featured=true&limit=4");
-console.log(data)
+
   return (
     <div className="fp">
       {loading ? (
@@ -19,7 +19,7 @@ console.log(data)
               />
               <span className="fpName">{item.name}</span>
               <span className="fpCity">{item.city}</span>
-              <span className="fpPrice">Starting from ${item.cheapestPrice}</span>
+              <span className="fpPrice">Starting from ₹{item.cheapestPrice}</span>
               {item.rating && <div className="fpRating">
                 <button>{item.rating}</button>
                 <span>Excellent</span>

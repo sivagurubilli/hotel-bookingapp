@@ -28,7 +28,7 @@ const logout=()=>{
         <Link to="/" style={{ color: "inherit", textDecoration: "none" }}>
           <span className="logo">Guru booking</span>
         </Link>
-        <a href="https://gurubooking-admin.netlify.app/login" style={{ color: "inherit", textDecoration: "none" }}>
+        <a href="https://gurubooking-admin.netlify.app" style={{ color: "inherit", textDecoration: "none" }}>
           <span className="logo">Guru-booking-admin</span>
         </a>
         {user ? <h3 onClick={()=>logout()}>{user.username }</h3>: (

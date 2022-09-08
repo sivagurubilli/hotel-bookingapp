@@ -45,6 +45,13 @@ const Register = () => {
 
 
   return (
+<>
+        
+    <nav style={{height:"70px",background:"blue",width:"100%"}}>
+      <button style={{marginLeft:"200px",color:"blue",marginTop:"10px",height:"40px",width:"120px",borderRadius:"10px",cursor:"pointer"
+    
+    }}onClick={()=>navigate("/")}>Home</button>
+    </nav>
     <div className="login">
       <div className="lContainer">
         <input
@@ -100,6 +107,7 @@ const Register = () => {
         {error && <span>{error.message}</span>}
       </div>
     </div>
+    </>
   );
 };
 

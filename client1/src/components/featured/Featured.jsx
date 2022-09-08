@@ -3,7 +3,7 @@ import "./featured.css";
 
 const Featured = () => {
   const { data, loading, error } = useFetch(
-    "https://gurubooking.herokuapp.com/api/hotels/countByCity?cities=mumbai,hyderabad,chennai"
+    "https://gurubooking.herokuapp.com/api/hotels/countByCity?cities=Mumbai,Hyderabad,Chennai"
   );
 
   return (
@@ -16,7 +16,7 @@ const Featured = () => {
         <>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/957801.webp?k=a969e39bcd40cdcc21786ba92826063e3cb09bf307bcfeac2aa392b838e9b7a5&o="
+            src="https://images.unsplash.com/photo-1594146032116-80033545b0b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG11bWJhaXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
               alt=""
               className="featuredImg"
             />
@@ -28,8 +28,8 @@ const Featured = () => {
 
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/690334.webp?k=b99df435f06a15a1568ddd5f55d239507c0156985577681ab91274f917af6dbb&o="
-              alt=""
+ src="https://images.unsplash.com/photo-1601619933635-023753974a65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aHlkZXJhYmFkfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+               alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">
@@ -39,8 +39,7 @@ const Featured = () => {
           </div>
           <div className="featuredItem">
             <img
-              src="https://cf.bstatic.com/xdata/images/city/max500/689422.webp?k=2595c93e7e067b9ba95f90713f80ba6e5fa88a66e6e55600bd27a5128808fdf2&o="
-              alt=""
+  src="https://media.istockphoto.com/photos/tokyo-night-picture-id520285776?k=20&m=520285776&s=612x612&w=0&h=dhcdw9Wkjmsz9GjttFnL2zL1o-wIYP67pqmAU3nJu8s="              alt=""
               className="featuredImg"
             />
             <div className="featuredTitles">

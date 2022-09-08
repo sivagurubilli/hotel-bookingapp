@@ -35,9 +35,9 @@ function App() {
             <Route
               index
               element={
-                <ProtectedRoute>
+              
                   <Home />
-                </ProtectedRoute>
+                
               }
             />
             <Route path="users">
