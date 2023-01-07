@@ -17,6 +17,7 @@ const List = () => {
   const [min, setMin] = useState(undefined);
   const [max, setMax] = useState(undefined);
 
+ 
   const { data, loading, error, reFetch } = useFetch(
     `https://gurubooking.herokuapp.com/api/hotels?city=${destination}&min=${min || 0 }&max=${max || 2099}`
   );
@@ -37,7 +38,9 @@ const List = () => {
             <h1 className="lsTitle">Search</h1>
             <div className="lsItem">
               <label>Destination</label>
-              <input placeholder={destination} type="text" />
+              <input placeholder={destination} type="text" 
+                
+                  onChange={(e) => setDestination(e.target.value)}/>
             </div>
             <div className="lsItem">
               <label>Check-in Date</label>
