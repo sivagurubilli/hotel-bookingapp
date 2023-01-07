@@ -49,8 +49,8 @@ You need latest version of NodeJS and Yarn installed, which is a dependency mana
 
 Once you have that, run following commands to get the project up and running:
 
-    git clone https://github.com/sivagurubilli/
-    cd Maxfashion-website-clone-react-redux
+    git clone https://github.com/sivagurubilli/hotel-bookingapp.git
+    cd hotelbooking
     npm  install
     npm run dev
     Runs the app in developement mode.
