@@ -34,7 +34,7 @@ Homepage
 <img src ="https://github.com/sivagurubilli/hotel-bookingapp/blob/main/client1/src/assets/Screenshot%20(263).png?raw=true" />
 <hr/>
 ### Details of hotel page
-<img src ="https://github.com/sivagurubilli/hotel-bookingapp/blob/main/client1/src/assets/Screenshot%20(263).png?raw=true" />
+<img src ="https://github.com/sivagurubilli/hotel-bookingapp/blob/main/client1/src/assets/Screenshot%20(264).png?raw=true" />
 <hr/>
 
 
